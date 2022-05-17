@@ -1,5 +1,6 @@
 import {Suspense} from "react";
 import {Canvas} from "@react-three/fiber";
+import { Loader } from "@react-three/drei";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
@@ -8,7 +9,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Desk from "./Desk";
 import Header from "./Header";
 
-export default function Home(){
+export default function About(){
 	return(
 		<>
 			<Header />

@@ -28,7 +28,7 @@ export default function Projects(){
 					</Canvas>
 				</Grid>
 				<Grid item xs={12} md={6} sx={{height: {md:'100vh'}, display: 'flex', flexDirection: 'column', justifyContent: 'center', p: '2rem'}}>
-					<Typography variant="h2" sx={{mb:2}}>Alejandria</Typography>
+					<Typography variant="h2" sx={{mb:2}}>Alejandría</Typography>
 					<Typography variant="h5">Alejandría is an ecommerce for selling and buying books. I created this project to gain a deeper understanding of React in general. I also wanted to implement popular libraries like Stripe, Auth0 and MUI. This was a great experience and very fun project to work on. You can visit the website and see the code below:</Typography>
 					<Stack direction="row" spacing={3} sx={{mt: 2}}>
 						<Typography variant="h5"><a href="https://alejandria-website.vercel.app/" className="link" target="_blank">website</a></Typography>
@@ -46,9 +46,13 @@ export default function Projects(){
 					</Canvas>
 				</Grid>
 				<Grid item xs={12} md={6} sx={{height: {md: '100vh'}, display: 'flex', flexDirection: 'column', justifyContent: 'center', p: '2rem'}}>
-					<Typography variant="h2" sx={{mb:2}}>Folders</Typography>
-					<Typography variant="h5">This website was the follow up to Alejandría. I had discovered three.js and react-three-fiber and wanted to learn how to use it. This was great experience and learned a lot from it. You can visit the source code below:</Typography>
-					<Typography variant="h5" sx={{mt: 2}}><a href="https://github.com/enzdor/portfolio" className="link" target="_blank">github</a></Typography>
+					<Typography variant="h2" sx={{mb:2}}>Portfolio</Typography>
+					<Typography variant="h5">This website was the follow up to Alejandría. I had discovered three.js and react-three-fiber and wanted to learn how to use it. There are two versions of this website, the less accessible and more fun original and, this one which is simpler and more polished. Check it out below:</Typography>
+					<Stack direction="row" spacing={3} sx={{mt: 2}}>
+						<Typography variant="h5"><a href="https://github.com/enzdor/new-portfolio" className="link" target="_blank">github</a></Typography>
+						<Typography variant="h5"><a href="https://fun-enzo-portfolio.vercel.app/" className="link" target="_blank">fun</a></Typography>
+						<Typography variant="h5"><a href="https://github.com/enzdor/portfolio" className="link" target="_blank">fun-github</a></Typography>
+					</Stack>
 				</Grid>
 				<Grid item xs={12} md={6} sx={{height: '100vh'}}>
 					<Canvas camera={{position: [0, 1.5, 12], pov: 70}} dpr={[1,2]} shadows>
@@ -62,7 +66,7 @@ export default function Projects(){
 				</Grid>
 				<Grid item xs={12} md={6} sx={{height: {md: '100vh'}, display: 'flex', flexDirection: 'column', justifyContent: 'center', p: '2rem'}}>
 					<Typography variant="h2" sx={{mb:2}}>Bans</Typography>
-					<Typography variant="h5">This was the las project I have worked on. It aims to incorporate everything that I have learned into one thing. I am really proud with how it came out. You can check it out here:</Typography>
+					<Typography variant="h5">This was the last project I have worked on. It aims to incorporate everything that I have learned into one thing. I am really proud with how it came out. You can check it out here:</Typography>
 					<Stack direction="row" spacing={3} sx={{mt: 2}}>
 						<Typography variant="h5"><a href="https://bans-mocha.vercel.app/" className="link" target="_blank">website</a></Typography>
 						<Typography variant="h5"><a href="https://github.com/enzdor/bans" className="link" target="_blank">github</a></Typography>
